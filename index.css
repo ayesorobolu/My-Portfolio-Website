@@ -1,0 +1,367 @@
+*{
+  margin: 0;
+  padding: 0;  
+  font-family: "Poppins", sans-serif;
+  font-style: normal;   
+  scroll-behavior: smooth;
+  }
+  
+  .html{
+  scroll-behavior: smooth;
+  }
+
+  body, html {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    max-width: 100%;
+  }
+  
+.nav-logo{
+  position: relative;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.nav-name{
+  font-family:"Gowun Batang", serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 86px;
+  color: #000000;
+}
+
+.nav-logo span{
+  position:absolute;
+  top: -15px;
+  right: -15px;
+  font-size: 5em;
+  color: black;
+}
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+   padding-right: 40px;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: #000000;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color:#FA7268;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+  }
+  
+  .nav-links a.active{
+    color:#000000;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+  }
+  
+  .bar {
+      display: none;
+      cursor: pointer;
+      flex-direction: column;
+      gap: 5px;
+      padding-right: 10px;
+    }
+    
+    .bar div {
+      width: 25px;
+      height: 3px;
+      background-color: #0d0c0c;
+      border-radius: 5px;
+    }
+    
+    .bar.toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .bar.toggle .line2 {
+      opacity: 0;
+    }
+    
+    .bar.toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    #Home{
+background-image: url('./assets/layered-waves-haikei.svg'); /* Path to your SVG file */
+background-size: cover; /* Cover the entire area */
+background-repeat: no-repeat; /* Prevents tiling */
+background-position: center; 
+color: white;
+}
+
+  h1, h2, h3 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+    .cv-btn{
+      width: 25%;
+      height: 50px;
+      padding: 10px;
+      background-color:#FA7268;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    .cv-btn a{
+      text-decoration: none;
+      color: white;
+    }
+  
+    .contact-btn{
+      width: 25%;
+      height: 50px;
+      padding: 10px;
+      background-color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+  
+    .contact-btn a{
+      text-decoration: none;
+      color: #001320;
+    }
+
+    .first-timeline{
+      padding-top: 20px;
+    }
+
+
+    .tech-icons img {
+      width: 80px;
+      height: 80px;
+      margin: 10px;
+    }
+    .timeline-year {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+  
+  .contact-container {
+    width: 90%;
+    display: flex;
+    flex-direction:row;
+    padding: 20px;
+    margin-left: 40px;
+  }
+  
+  .form-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .error-message {
+    color: red;
+    margin: 5px 0 10px;
+    font-size: 0.9em;
+  }
+
+  
+  .form-container{
+    margin-bottom: 100px;
+  }
+  
+  .contact-info {
+    flex: 0.5;
+    padding-top: 35px;
+    /* margin-left: 100px; */
+  }
+
+  .submit-btn{
+    width: 20%;
+    padding: 10px;
+    background-color:#001420;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer; 
+  }
+
+  .submit-btn:hover{
+    background-color:#001420cc;
+    transition: ease 0.4s ;
+  } 
+
+  #icon{
+    color: 323232; 
+     padding-left: 7px; 
+     padding-top: 5px;
+  }
+  
+  .btn-custom{
+    border-radius: 20px;
+  }
+.txt-box{
+    width: 400px; 
+    background-color:  #db9370;
+  }
+
+  #Projects{
+    background-image: url('./assets/layered-waves-haikei.svg'); /* Path to your SVG file */
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Center the background */
+  }
+  
+  #all{
+    border-radius: 20px; 
+    background-color: #fefefe; 
+    height: 45vh; 
+    width: 300px;
+  }
+  
+  footer{
+  background-color: #001320;
+  /* height: 30vh; */
+  
+  }
+  
+  #footer-list{
+    font-size: 30px;
+    color: white;
+  }
+  #footer-list:hover{
+   color: #FA7268;  
+  }
+
+  .custom-card {
+    width: 280px; /* Reduced width */
+    height: 350px; /* Increased height */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto; /* Center the card */
+}
+
+.card-img-top {
+  height:240px;
+  object-fit: cover;
+  /* width: 100%;
+  max-height: 100%; */
+}
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+}
+
+.custom-card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.icon-button {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.icon-button:hover {
+    background-color: #ddd;
+    transform: scale(0.85);
+}
+
+.info-bar {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: white;
+    border-radius: 15px;
+    top: 200px; /* Adjusted for new height */
+    left: 105px; /* Adjusted for new width */
+}
+
+.card-text {
+    font-size: 16px;
+    color: #323232;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-row {
+    justify-content: center; /* Center the cards */
+}
+
+#card{
+background-color: #001320;
+}
+
+#first-box-txt{
+font-size: smaller;
+color: #FA7268;
+}
+
+#card-title{
+  color: white;
+  text-align: center;
+}
+
+
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+ transition: all 2s;
+}
+  
+.show{
+opacity: 1;
+filter: blur(0);
+transform: translateX(0);
+}
+
+
+  
+  
