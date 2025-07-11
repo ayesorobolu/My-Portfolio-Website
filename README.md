@@ -43,7 +43,6 @@ This portfolio website is a personal project crafted to present my skills, backg
 
 To run the project on your local machine:
 
-```bash
 # Clone the repository
 git clone https://github.com/ayesorobolu/My-Portfolio-Website
 
@@ -58,10 +57,11 @@ npm run start
 
 Now open http://localhost:5173 in your browser to view the app.
 
-⸻
+---
 
 ## 📘 How to Use
-	1.	Open the homepage to view a quick introduction.
-	2.	Scroll through the Projects section to see detailed descriptions of my work.
-	3.	Use the Contact section to reach out via the form.
-	4.	Click the Resume button to download my professional CV.
+1.	Open the homepage to view a quick introduction.
+2.	Scroll through the Projects section to see detailed descriptions of my work.
+3.	Use the Contact section to reach out via the form.
+4.	Click the Resume button to download my professional CV.
+
