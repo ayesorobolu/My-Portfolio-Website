@@ -43,19 +43,28 @@ This portfolio website is a personal project crafted to present my skills, backg
 
 To run the project on your local machine:
 
-# Clone the repository
-git clone https://github.com/ayesorobolu/My-Portfolio-Website
+Clone the repository
 
-# Navigate to the project directory
+```bash
+  git clone https://github.com/ayesorobolu/My-Portfolio-Website
+```
+ 
+Navigate to the project directory
+```bash
 cd My-Portfolio-Website
+```
 
-# Install dependencies
+Install dependencies
+```bash
 npm install
+```
 
-# Start the development server
+Start the development server
+``` bash
 npm run start
+```
 
-Now open http://localhost:5173 in your browser to view the app.
+- Now open http://localhost:5173 in your browser to view the app.
 
 ---
 
